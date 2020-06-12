@@ -1,0 +1,56 @@
+header{
+  background-size: cover !important;
+}
+
+.header-text{
+  text-shadow: 2px 2px 3px #000 !important;
+
+}
+
+.btn-floating{
+  display: inline-block;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0;
+  background-color: #26a69a;
+  border-radius: 50%;
+  transition: .3s;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.btn-floating-halfway{
+  position: absolute;
+  right: 24px;
+  bottom: -35px;
+
+}
+
+.card-image{
+  position: relative;
+}
+
+.card-server-image{
+  display: block;
+  border-radius: 2px 2px 0 0;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+.header-cover{
+  height: 75vh;
+  width: 100%;
+
+  .header-text{
+    color: #fff;
+    text-shadow: 2px 2px 3px #000;
+  }
+}

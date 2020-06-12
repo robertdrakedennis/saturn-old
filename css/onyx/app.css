@@ -1,0 +1,357 @@
+.pagefeature-cardtitle,pageheader01-navbar,
+.pagestaff-steamposition,
+.sv-apptitle {
+    letter-spacing: 2px;
+    text-transform: uppercase
+}
+
+.navwrapper,
+.sv-joinbtn {
+    align-items: center;
+    display: flex
+}
+
+.cbwrapper,
+.pagefeature-cardicon {
+    -webkit-box-shadow: 0 7.5px 17px 0 rgba(0, 0, 0, .75);
+    -moz-box-shadow: 0 7.5px 17px 0 rgba(0, 0, 0, .75);
+    box-shadow: 0 7.5px 17px 0 rgba(0, 0, 0, .75)
+}
+
+.ft-wrapper a:hover,
+.sv-joinbtn:hover {
+    text-decoration: none
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #622b67;
+}
+
+.pageheader01 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding: 0!important;
+    color: #FFF;
+    height: 700px
+}
+
+.onyx-nav-btn {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 0;
+    border-radius: 0;
+    margin-left: .25rem!important;
+    margin-right: .25rem!important;
+}
+
+.navwrapper {
+    min-height: 56px;
+    flex-direction: column
+}
+
+.pageheader01-navbar {
+    font-weight: 500;
+    min-height: 56px
+}
+.sitename {
+    color: #FFF;
+    font-size: 4rem;
+}
+.pageheader01-navbar a:hover {
+    color: #000
+}
+
+.pageheader01-navbar a {
+    color: #FFF;
+    transition: all .3s ease-in-out
+}
+
+.navbar-toggler .fa-bars {
+    color: #FFF;
+    font-size: 2rem
+}
+
+.pageglobal-headersubtitle {
+    font-size: 1rem;
+    font-weight: 300;
+}
+.pageglobal-headericon,
+.pageglobal-headersubtitle {
+    color: #FFF;
+}
+
+.pageheader01-contentbox {
+    min-height: 444px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.cbwrapper {
+    text-align: center;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 20px;
+    min-width: 400px;
+}
+
+.pagefeature {
+    text-align: center;
+    background-color: #23193a!important;
+    padding-bottom: 200px;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem
+}
+
+.pageglobal-headertitle {
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.pagefeature-card {
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pagefeature-cardtitle {
+    font-size: 1rem;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #FFF;
+}
+
+.pagefeature-cardicon {
+    border: 3px solid #FFF;
+    background-color: #FFF;
+    width: 80px;
+    height: 80px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+
+.pagefeature-cardiconspl {
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    color: #2d1e47;
+}
+
+.pagefeature-carddescription {
+    border: 3px solid #fff;
+    font-weight: 400!important;
+    background-color: #2d1e47;
+    color: #FFF;
+    -webkit-box-shadow: 0 7.5px 17px 0 rgba(0, 0, 0, .75);
+    -moz-box-shadow: 0 7.5px 17px 0 rgba(0, 0, 0, .75);
+    box-shadow: 0 7.5px 17px 0 rgba(0, 0, 0, .75);
+    text-align: justify;
+    margin-top: -40px;
+    padding: 80px 15px 30px;
+    min-height: 325px;
+}
+
+.ph2 {
+    color: #FFF
+}
+
+.team-wrapper {
+    background-color: #fff;
+    border-radius: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.teamicon-wrapper {
+    height: 50px;
+    width: 50px;
+    background-color: #32325d;
+    color: #fff;
+    border-radius: 50%;
+}
+.pagestaff {
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.pagestaff-steamavatar {
+    height: 80px;
+    width: 80px;
+    border-radius: 15px;
+    border: 4px solid #FFF;
+    margin-top: -160px;
+    margin-left: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.pagestaff-steamavatar:hover {
+    border-radius: 20px;
+}
+
+.pagestaff-steaminfobox {
+    color: #FFF;
+    background: #23193a;
+    height: 70px;
+    width: 100%;
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    border: 2px solid #FFF;
+    border-radius: 15px;
+}
+
+.pagestaff-steamname {
+    font-weight: 600;
+    font-size: 1rem;
+    padding-top: 11px;
+}
+
+.pagestaff-steamposition,
+.sv-apptitle {
+    font-weight: 300
+}
+
+.pagestaff-steamposition {
+    font-size: 10px
+}
+
+.pagestaff-steamstatus {
+    font-size: 10px;
+    padding: 5px;
+    width: 75px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .5);
+    float: right
+}
+.footer-img {
+    width: 100%;
+    height: auto;
+}
+.pageserver {
+    padding-bottom: 50px
+}
+
+.pageserver-title {
+    text-align: center
+}
+
+.sv-wrapper {
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(0, 0, 0, .6);
+    border-radius: 20px;
+    -webkit-box-shadow: 0 7.5px 17px 0 rgba(0, 0, 0, .75);
+    -moz-box-shadow: 0 7.5px 17px 0 rgba(0, 0, 0, .75);
+    box-shadow: 0 7.5px 17px 0 rgba(0, 0, 0, .75);
+}
+
+.sv-apptitle {
+    padding-top: 30px;
+    color: #FFF;
+    font-size: 13px
+}
+
+.sv-title {
+    color: #FFF;
+    font-weight: 700;
+    font-size: 20px;
+    word-wrap: break-word;
+}
+
+.ft-wrapper a,
+.sv-cnumber b {
+    font-weight: 300;
+    text-transform: uppercase
+}
+
+.sv-cnumber {
+    font-size: 50px;
+    color: #FFF
+}
+
+.sv-cinfo,
+.sv-cnumber b {
+    color: #dbdbdb
+}
+
+.sv-cnumber b {
+    font-size: 13px
+}
+
+.sv-joinbtn {
+    float: right;
+    margin-right: 30px;
+    margin-left: 15px;
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    border: 2px solid #FFF;
+    background-color: #ff5299;
+    color: #FFF!important;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.3s ease-in-out;
+    -webkit-box-shadow: 0 7.5px 17px 0 rgba(0, 0, 0, .75);
+    -moz-box-shadow: 0 7.5px 17px 0 rgba(0, 0, 0, .75);
+    box-shadow: 0 7.5px 17px 0 rgba(0, 0, 0, .75);
+}
+.sv-joinbtn:hover {
+    border-radius: 50px;
+}
+
+.sv-joinbtn .fa {
+    font-size: 30px
+}
+
+footer {
+    width: 100%;
+    min-height: 100px;
+}
+
+footer a {
+    color: #FFF;
+    font-weight: 300;
+    margin: 20px;
+}
+.w-hr {
+    background-color: #FFF;
+    width: 100%;
+    height: 1px;
+    margin-bottom: 10px
+}
+
+.jumbotron {
+    border-radius: 0!important;
+    margin-bottom: 0!important
+}
+
+@media screen and (max-width:991px) {
+    .pageheader01-navbar {
+        width: 100%
+    }
+}
+
+@media screen and (max-width:768px) {
+    .ft-btnwrapper {
+        display: block;
+        padding-bottom: 20px
+    }
+}
+
+@media screen and (max-width:550px) {
+    .display-3 {
+        font-size: 2.5rem!important
+    }
+}

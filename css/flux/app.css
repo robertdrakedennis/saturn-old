@@ -1,0 +1,238 @@
+body {
+	background: #222222;
+}
+
+#background-darken {
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: -9999;
+}
+
+header {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@media screen and (min-height: 600px) {
+	header {
+		min-height: 80vh;
+	}
+}
+
+.site-logo {
+	height: auto;
+	max-height: 50vh;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.site-name, .site-about {
+	text-align: center;
+	margin: 0 0;
+	text-shadow: 1px 1px #000;
+}
+
+.site-name {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 0.15em;
+	font-size: 4em;
+}
+
+.site-about {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: white;
+	font-size: 2em;
+	line-height: 0.5em;
+	opacity: 0.7;
+}
+
+.site-nav {
+	position: absolute;
+	display: block;
+	left: 0;
+	top: 0;
+	width: 100%;
+	text-align: right;
+	padding: 15px;
+}
+
+.site-nav a {
+	margin-left: 15px;
+	color: white;
+	opacity: 0.4;
+	transition: all 50ms ease;
+}
+
+.site-nav a:hover {
+	opacity: 0.7;
+}
+
+section.main {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+section.staff {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.button {
+	display: inline-block;
+	height: 54px;
+	letter-spacing: 1.5px;
+	line-height: 54px;
+	padding: 0 24px;
+	background-color: rgba(86, 3, 4, 0.95);
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	font-weight: 400;
+	transition: all 100ms ease;
+}
+
+.button:hover {
+	background-color: rgb(153, 0, 2);
+	color: white;
+}
+
+.button-secondary {
+	background-color: rgba(18, 123, 172, 0.4);
+}
+
+.button-secondary:hover {
+	background-color: rgba(18, 123, 172, 0.8);
+}
+
+.floating-buttons {
+	position: absolute;
+	text-align: center;
+	height: 54px;
+	margin-top: -27px;
+	width: 100%;
+}
+
+section.main {
+	padding: 5em 0;
+}
+
+section h1, section h2 {
+	color: rgba(255, 255, 255, 0.8);
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-weight: 300;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+section h1 span, section h2 span {
+	font-weight: 400;
+	color: white;
+}
+
+section h1 {
+	font-size: 4.2rem;
+	margin-bottom: 3rem;
+}
+
+section h2 {
+	font-size: 3.2rem;
+	margin-bottom: 0;
+	margin-top: 0.5em;
+}
+
+section.staff {
+	padding-top: 3em;
+}
+
+.feature {
+	text-align: center;
+	color: white;
+	margin-bottom: 2.5em;
+}
+
+.feature i {
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 50%;
+	font-size: 3vw;
+	width: 7.5vw;
+	line-height: 7.5vw;
+	height: 7.5vw;
+	margin: 0;
+}
+
+.feature img {
+	border-radius: 50%;
+	width: 7.5vw;
+	height: 7.5vw;
+}
+
+.feature h3 {
+	margin: 1rem;
+	font-size: 1.8rem;
+	color: white;
+}
+
+.feature p {
+	margin: 0;
+	opacity: 0.7;
+}
+
+p.lead {
+	color: white;
+	text-align: center;
+	opacity: 0.6;
+	margin: 0;
+}
+
+.staff-card {
+	background-color: rgba(255, 0, 0, 0.2);
+	text-align: center;
+	margin-bottom: 5rem;
+}
+
+.staff-card img {
+	border-radius: 50%;
+	position: relative;
+	bottom: 30px;
+	box-shadow: 0 6px 10px 0 rgba(0,0,0,0.14),0 1px 18px 0 rgba(0,0,0,0.12),0 3px 5px -1px rgba(0,0,0,0.3);
+}
+
+.staff-card h3 {
+	font-size: 2rem;
+	margin: 0;
+	color: white;
+	font-weight: 300;
+}
+
+.staff-card p {
+	margin: 0 0 30px;
+	color: white;
+	font-size: 1.3rem;
+	font-weight: 100;
+	font-family: 'Roboto', sans-serif;
+}
+
+.staff-card a {
+	display: block;
+	background-color: rgba(0, 0, 0, 0.4);
+	height: 48px;
+	line-height: 48px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	transition: all 100ms ease;
+}
+
+.staff-card a:hover {
+	background-color: rgba(0, 0, 0, 0.3);
+}
